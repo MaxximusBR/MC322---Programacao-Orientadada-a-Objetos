@@ -1,0 +1,27 @@
+## Aula 1 - MC322
+## Introdução aos Conceitos de Orientação a Objetos
+
+# Motivação
+- P.O.O existe desde a década de 1960
+- A industria de software pode ser lenta a se atualizar, principalmente porque se os sistemas funionam nem, é necessária uma boa razão para susbtituti-los.
+- Crescimento significativo em Orientação de Objetos nos últimos 15 anos
+- Object Wrappers: código orientado a objeto que inclui outros códigos por dentro
+- Com o sucesso das linguagens Java, .NET, e outas, objetos estão tornando-se uma parte significante da equação tecnológica.
+
+# Desenvolvimento Procedural
+- Dicotomia Dados x Funções
+- Em P.O.O. ao invés de substituir paradigmas de desenvolvimento de software, objetos reprexentam uma resposta evolucionária.
+- Programas estruturados usam estruturas complexas de dados, como arrays.
+- Em linguagens como C++, estruturas compartilham muitas caracteristicas com objetos (classes)
+- Objetos contêm dados (atributos) e comportamento (métodos)
+
+# Aspectos Gerais de P.O.O
+- A questão é tanto simples quanto complexa:
+  a) Complexa: Aprender qualquer método de desenvolvimento de software não é trivial
+  b) Simples: Pessoas já pensam sobre objetos
+
+# Encapsulamento
+- Data Hiding: dados são atributos e comportamentos são métodos. Restringir acesso a certos atributos e/ou métodos é chamado de data hiding.
+- Quando outro objeto como myObject que ter acesso à soma de myInt1 e myInt2, ele envia a mensagem (chamada) ao objeto Sum: ele calcula a soma e retorna o valor a myObject
+- A beleza desse sesign é que myObject não precisa saber como a soma é calculada
+
