@@ -3,14 +3,14 @@
 
 # Motivação
 - P.O.O existe desde a década de 1960
-- A industria de software pode ser lenta a se atualizar, principalmente porque se os sistemas funionam nem, é necessária uma boa razão para susbtituti-los.
+- A industria de software pode ser lenta a se atualizar, principalmente porque se os sistemas funcionam nem, é necessária uma boa razão para susbtitui-los.
 - Crescimento significativo em Orientação de Objetos nos últimos 15 anos
 - Object Wrappers: código orientado a objeto que inclui outros códigos por dentro
 - Com o sucesso das linguagens Java, .NET, e outas, objetos estão tornando-se uma parte significante da equação tecnológica.
 
 # Desenvolvimento Procedural
 - Dicotomia Dados x Funções
-- Em P.O.O. ao invés de substituir paradigmas de desenvolvimento de software, objetos reprexentam uma resposta evolucionária.
+- Em P.O.O. ao invés de substituir paradigmas de desenvolvimento de software, objetos representam uma resposta evolucionária.
 - Programas estruturados usam estruturas complexas de dados, como arrays.
 - Em linguagens como C++, estruturas compartilham muitas caracteristicas com objetos (classes)
 - Objetos contêm dados (atributos) e comportamento (métodos)
@@ -50,7 +50,7 @@ public class Person {
 public class Person {
   // Interfaces
   public String name;
-  public String adress;
+  public String address;
   // Métodos
   public String getName();  
 }
@@ -58,6 +58,13 @@ public class Person {
 # Métodos
 - São as funções que implementam comportamentos requeridos por uma classe.
 - Comportamentos internos sçao métodos privados que não são acessíveis que outros objetos.
+
+# Encapsulamento & Data Hiding
+- Encapsulamento é a possibilidade de esconder dados
+- Dados privados: para um data hiding funcionar, todos os atributos devem ser declarados como privados
+
+# Interfaces x Interfaces
+- Interfaces para as classes são métodos públicos
 
 
 
