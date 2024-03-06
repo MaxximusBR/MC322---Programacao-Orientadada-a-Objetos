@@ -25,3 +25,40 @@
 - Quando outro objeto como myObject que ter acesso à soma de myInt1 e myInt2, ele envia a mensagem (chamada) ao objeto Sum: ele calcula a soma e retorna o valor a myObject
 - A beleza desse sesign é que myObject não precisa saber como a soma é calculada
 
+# O que exatamente é um objeto?
+- Objetos: são blocos fundamentais de contrução de um programa orientado a objetos
+- Métodos: Getters and Setters (suportam o conceito de data hiding). 
+- Devido a outros objetos não poderem manipular diretamente o dado em outro objeto, os getters e setters provém acesso controlado a um dado de objeto.
+
+# Método de Interface e Implementação
+public class Person {
+  // Interfaces
+  public String getName();
+  public void setName(String n);
+  public String getAdress();
+  public void setAdress(String adr):
+}
+
+# Diagrama UML de Classes
+- Ferramentas de modelagem visual que oferece um mecanismo de criar e manipular classes usando Unified Modelling Language (UML).
+
+# O que exatamente é uma Classe?
+- Classes: em resumo, é um projeto (blueprint) de um objeto
+- Quando você inicia um objeto, você usa uma classe como base para como o objeto é contruído
+- Cada objeto tem seus próprios atributos e comportamentos
+
+public class Person {
+  // Interfaces
+  public String name;
+  public String adress;
+  // Métodos
+  public String getName();  
+}
+
+# Métodos
+- São as funções que implementam comportamentos requeridos por uma classe.
+- Comportamentos internos sçao métodos privados que não são acessíveis que outros objetos.
+
+
+
+
